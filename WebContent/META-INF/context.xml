@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context docBase="TomCatProyect" path="/TomCatProyect" reloadable="true">
+<!-- Revisa cada objeto que tengas en los html! que la lias con las minusculas x'D -->
+<Resource 
+	name="jdbc/pool" 
+	auth="Container" 
+	type="javax.sql.DataSource"  
+	username="adminGXjlxzG" 
+	password="QBShkFDW_69e" 
+	driverClassName="com.mysql.jdbc.Driver"  
+	url="jdbc:mysql://localhost:3309/femxa" 
+	maxActive="8" 
+	maxIdle="8"/> 
+</Context>
